@@ -1,0 +1,85 @@
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.active-underline {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000000;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+    border-radius: 10px;
+}
+
+.underline-white::after {
+    background-color: #FFFFFF;
+}
+
+.underline-black::after {
+    background-color: #000000;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.hover-underline-animation.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.transition {
+    transition: 0.2s ease-in-out;
+}
+
+/* ::-webkit-scrollbar {display:none;} */
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+    .nav-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+    .nav-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+    .nav-padding {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

@@ -1,0 +1,43 @@
+.filter:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.scrolling {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+  .fs-title {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+  .padd-desktop {
+    padding-top: 72px !important;
+    /* padding-bottom: 80px !important; */
+  }
+
+  .fs-title {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .fs-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+}

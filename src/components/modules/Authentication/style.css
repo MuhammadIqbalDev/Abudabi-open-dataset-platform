@@ -1,0 +1,37 @@
+/* .flipImg {
+    transform: scaleX(-1);
+} */
+
+.main-recover::before {
+    content: '';
+    background-image: url('../../../assets/images/recover-pass-Image.jpg');
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1000;
+    background-size: 100% 100%;
+}
+
+.main-auth::before {
+    content: '';
+    background-image: url('../../../assets/images/Auth-Background-1.jpg');
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1000;
+    background-size: 100% 100%;
+}
+
+.flipImage::before {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+.defaultImage::before {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+}

@@ -1,0 +1,7 @@
+[data-rsbs-footer], [data-rsbs-header]{
+    padding: 0% !important;
+}
+
+[data-rsbs-overlay], [data-rsbs-backdrop], [data-rsbs-root]:after{
+    z-index: 99 !important;
+}

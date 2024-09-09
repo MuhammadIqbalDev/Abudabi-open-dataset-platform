@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+
+    /* For Mobiles */
+    .card-width {
+        width: 280px;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+
+    /* For Tablets */
+    .card-width {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /* For Laptops */
+
+}
+
+@media screen and (min-width: 992px) {
+
+    /* For Large Laptops */
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* For Big TV's (HD Screens)  */
+
+}
+
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+    .datalist-title-padding {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+    .datalist-title-padding {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .datalist-title-padding {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+
+.scroll-bar {
+    overflow-x: scroll;
+    width: fit-content;
+}
+
+
+.scroll-bar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: transparent;
+}

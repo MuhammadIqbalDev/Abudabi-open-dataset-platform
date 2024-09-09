@@ -1,0 +1,56 @@
+.half-black {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.input-focused {
+  box-shadow: 0 0 0 99999px rgba(11, 0, 31, 0.5);
+}
+
+/* mobile */
+@media (max-width: 768.98px) {
+  .sticky {
+    position: sticky;
+    /* box-shadow: 0 1px 4px -2px gray; */
+    z-index: 99;
+  }
+
+  .boxShadow {
+    box-shadow: 0 1px 4px -2px gray;
+  }
+
+  .placeholder-color::placeholder {
+    color: #9f9f9f;
+  }
+
+
+}
+
+/* desktop */
+@media (min-width: 1199.98px) {
+
+  .sticky {
+    position: sticky !important;
+    /* box-shadow: 0 1px 4px -2px gray; */
+    z-index: 99;
+  }
+
+  .boxShadow {
+    box-shadow: 0 1px 4px -2px gray;
+  }
+
+}
+
+/* tab */
+@media (max-width: 1199.98px) {
+  .sticky {
+    position: sticky;
+    /* box-shadow: 0 1px 4px -2px gray; */
+    z-index: 99;
+  }
+
+  .boxShadow {
+    box-shadow: 0 1px 4px -2px gray;
+  }
+
+}

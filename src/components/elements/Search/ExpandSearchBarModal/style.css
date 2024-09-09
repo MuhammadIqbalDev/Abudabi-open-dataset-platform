@@ -1,0 +1,17 @@
+.border-foucs:focus {
+    border-color: #8207C9 !important;
+    box-shadow: none;
+}
+
+.modal-header {
+    border-bottom: none !important
+}
+
+.input-field {
+    border: 2px solid #cfcfcf;
+    border-radius: 100px;
+}
+
+.input-field:focus {
+    border: 2px solid #8207C9;
+}

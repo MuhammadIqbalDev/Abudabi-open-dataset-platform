@@ -1,0 +1,19 @@
+.css-1dd3tiy-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 30px !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border:1px solid #AD50F0 !important
+}
+
+.muiltr-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input {
+    /* color:  #707070; */
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border-radius: 10px !important;
+}
+
+/* .muiltr-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: 1px solid #9F9F9F !important;
+} */

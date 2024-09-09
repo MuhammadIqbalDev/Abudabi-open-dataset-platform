@@ -1,0 +1,36 @@
+.css-1guwpl9-MuiButtonBase-root-MuiPaginationItem-root:hover {
+    background-color: none !important;
+}
+
+.css-1guwpl9-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected:hover {
+    background-color: black !important;
+}
+
+.MuiPaginationItem-icon {
+    width: 22px;
+    height: 22px;
+    color: black !important;
+}
+
+.muiltr-1drmwn4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    min-width: 30px;
+    height: 30px;
+    color: white !important;
+    margin: 0% !important;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    color: #707070;
+}
+
+.muiltr-1drmwn4-MuiButtonBase-root-MuiPaginationItem-root {
+    margin: 0% !important;
+}
+
+.muiltr-d7p1f-MuiButtonBase-root-MuiPaginationItem-root {
+    padding: 0 8px !important;
+    margin: 0px 3px !important;
+}

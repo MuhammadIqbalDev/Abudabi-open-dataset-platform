@@ -1,0 +1,27 @@
+.css-vjfk8i-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #707070 !important;
+}
+
+.meaningless-key-vjfk8i-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #707070 !important;
+}
+
+.muiltr-vjfk8i-MuiFormLabel-root-MuiInputLabel-root {
+    color: #707070 !important;
+}
+
+.muirtl-vjfk8i-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #707070 !important;
+    
+}
+
+.muiltr-1wjfk1i.Mui-focused {
+    color: #707070 !important;
+}
+
+/* .muiltr-1m1imhu-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+    border-bottom: 1px solid #AD50F0 !important;
+} */
+.MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+    border-bottom: 1px solid #707070 !important;
+}

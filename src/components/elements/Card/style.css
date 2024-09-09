@@ -1,0 +1,139 @@
+.card-hover-primary:hover {
+  background-color: #762fff !important;
+  color: #ffffff !important;
+  transition: 0.3s ease;
+}
+
+.card-hover-primary:hover .tag-primary {
+  background-color: #9159ff !important;
+  color: #ffffff !important;
+  transition: 0.3s ease;
+}
+
+.card-hover-primary:hover .btn-primary {
+  filter: invert(1);
+}
+
+.hover-second:hover div:nth-child(2) div p {
+  color: #ffffff !important;
+}
+
+.hover-third:hover div:nth-child(3) div p {
+  color: #ffffff !important;
+}
+
+.scroll {
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.paddofcards {
+  padding-left: 31px !important;
+  padding-right: 31px !important;
+  padding-top: 20px !important;
+  padding-bottom: 31px !important;
+}
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+  .tittle-sm-md {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+
+  .tittle-sm {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .publisher-xs {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .publisher-xs-sm {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hover-pl {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1199.98px) {
+
+  .card-hover-light:hover {
+    background-color: #f3f3f3 !important;
+    transition: 0.3s ease;
+  }
+
+  .tittle-sm-md {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+  }
+
+  .tittle-sm {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .publisher-xs {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .publisher-xs-sm {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .hover-pl {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+  .tittle-sm-md {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+  }
+
+  .tittle-sm {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .publisher-xs {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .publisher-xs-sm {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .hover-pl {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

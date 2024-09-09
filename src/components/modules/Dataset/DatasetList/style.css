@@ -1,0 +1,26 @@
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+    .dataset-padding{
+        padding-left: 30px;
+        padding-right: 30px;
+    } 
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+.dataset-padding{
+        padding-left: 30px;
+        padding-right: 30px;
+    } 
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+.dataset-padding{
+        padding-left: 6px;
+        padding-right: 6px;
+    } 
+}

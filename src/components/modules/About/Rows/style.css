@@ -1,0 +1,23 @@
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+    .image-height {
+        height: 390px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+    .image-height {
+        height: 500px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+    .image-height {
+        height: 256px;
+    }
+}

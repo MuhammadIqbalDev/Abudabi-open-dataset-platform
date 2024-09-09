@@ -1,0 +1,30 @@
+.transition{
+    transition: 0.8s ease-in-out;
+}
+
+/*HEADER STICKY*/
+
+.mainHeader {
+    padding: 12px 18px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .main-block {
+    padding: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .fixedTop {
+    width: 100%;
+    padding: 12px 18px;
+    position: fixed;
+    transition: .5s ease-in-out;
+    top: 0;
+  }
+  
+  .fixedTop+.main-block {
+    padding-top: 102px;
+  }

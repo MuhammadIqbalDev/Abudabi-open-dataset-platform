@@ -1,0 +1,27 @@
+.card-hover:hover {
+    color: #FFFFFF;
+}
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+    .card-with-text-height {
+        height: 277px;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+    .card-with-text-height {
+        height: 277px;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 767.98px) {
+    .card-with-text-height {
+        height: 210px;
+    }
+}

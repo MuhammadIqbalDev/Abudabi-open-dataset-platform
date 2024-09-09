@@ -1,0 +1,45 @@
+.modal-content {
+    border-radius: 25px;
+}
+
+.muiltr-lahdlo {
+    outline: 0;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.btn-close {
+    box-sizing: border-box;
+}
+
+/* scroll-bar */
+
+.custom-scrollbar {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888888 #f0f0f0;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 133.85px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #CFCFCF;
+    border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+.scroll-content {
+    width: 100%;
+    height: 100%;
+}

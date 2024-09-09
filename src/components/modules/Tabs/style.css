@@ -1,0 +1,28 @@
+.tab-underline {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+    border-radius: 5px;
+    background-color: #8207C9;
+}
+
+@media (min-width: 1199.98px) {
+    .padding-top-bottom{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}

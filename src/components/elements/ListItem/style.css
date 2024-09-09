@@ -1,0 +1,34 @@
+.list-item-hover:hover {
+  background-color: #762fff;
+  transition: 0.3s ease-in-out;
+}
+
+.delay:hover{
+  transition: 0.3s ease-in-out;
+}
+
+/* Tablet */
+
+@media (max-width: 1199.98px) {
+  .padding-xl {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1199.98px) {
+  .padding-xl {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .padding-xl {
+    padding-top: 24px !important;
+    padding-bottom: 25px !important;
+  }
+}

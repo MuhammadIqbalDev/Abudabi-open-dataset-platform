@@ -1,0 +1,29 @@
+/* Tablet */
+@media (max-width: 1199.98px) {
+  .header-padding {
+    padding-left: 28px;
+  }
+  .breadCrumb-padding {
+    padding-left: 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1199.98px) {
+  .header-padding {
+    padding-left: 28px;
+  }
+  .breadCrumb-padding {
+    padding-left: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .header-padding {
+    padding-left: 4px;
+  }
+  .breadCrumb-padding {
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,99 @@
+/* desktop */
+@media (min-width: 1199.98px) {
+  .contained:hover {
+    color: white !important;
+    background-color: #ad50f0;
+    transition: 0.3s ease;
+    border: 1.5px solid #ad50f0;
+    cursor: pointer;
+  }
+
+  .contained-black:hover {
+    color: white !important;
+    background: #ad50f0;
+    transition: 0.3s ease;
+    border: 1.5px solid #ad50f0;
+    cursor: pointer;
+  }
+
+  .contained-purple:hover {
+    background-color: white;
+    color: #8207c9 !important;
+    transition: 0.3s ease;
+    border: 1.5px solid white;
+    cursor: pointer;
+  }
+
+  .outlined:hover {
+    border: 1.5px solid #ad50f0;
+    /* background: #ad50f0; */
+    color: #ad50f0 !important;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .outlined-transparent:hover {
+    /* background-color: #ad50f0; */
+    color: #ad50f0 !important;
+    border: 1.5px solid #ad50f0;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .text-purple:hover {
+    text-underline-position: under;
+    text-decoration: underline;
+    transition: 0.3s ease;
+  }
+
+}
+
+.contained {
+  background-color: white;
+  color: black !important;
+  border: 1.5px solid white;
+}
+
+.contained-black {
+  background-color: black;
+  color: white !important;
+  border: 1.5px solid black;
+}
+
+
+
+.contained-purple {
+  background-color: #955bff;
+  color: white !important;
+  border: 1.5px solid #955bff;
+}
+
+
+
+.outlined {
+  border: 1.5px solid #101010;
+  color: black !important;
+  background-color: white;
+}
+
+
+
+.outlined-transparent {
+  background-color: transparent;
+  color: white !important;
+  border: 1.5px solid white;
+}
+
+
+
+.disabled {
+  background-color: rgb(231, 231, 231);
+  color: rgb(112, 112, 112);
+  border: 1.5px solid rgb(231, 231, 231);
+}
+
+.text-purple {
+  color: #8207c9 !important;
+  background-color: white;
+  border: none;
+}

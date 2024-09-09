@@ -1,0 +1,115 @@
+/* Tablet */
+@media (max-width: 1199.98px) {
+  .card-height {
+    height: 500px;
+  }
+  #zoom-in-out-card-two::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../../../assets/images/Card-two-tablet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.9s linear;
+  }
+    .card-padding-lg{
+    padding-left:28px;
+    padding-right:28px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1199.98px) {
+  .card-height {
+    height: 500px;
+  }
+  #zoom-in-out-card-two::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../../../assets/images/Card-Two.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.9s linear;
+  }
+  .card-padding-lg{
+    padding-left:28px;
+    padding-right:28px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767.98px) {
+  .card-height {
+    height: 400px;
+  }
+   .card-padding-lg{
+    padding-left:4px;
+    padding-right:4px;
+  }
+  #zoom-in-out-card-two::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../../../../assets/images/Card-two-mobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.9s linear;
+  }
+}
+
+#zoom-in-out-card-one {
+  position: relative;
+  overflow: hidden;
+}
+
+#zoom-in-out-card-one::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../../../../assets/images/Card-One.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.9s linear;
+}
+
+#zoom-in-out-card-one:hover::before {
+  transform: scale(1.3);
+}
+
+#zoom-in-out-card-two {
+  position: relative;
+  overflow: hidden;
+}
+
+#zoom-in-out-card-two:hover::before {
+  transform: scale(2);
+}
+
+#zoom-in {
+  transition: transform 0.9s linear;
+}
+
+#zoom-in-out-card-one:hover #zoom-in {
+  transform: scale(1.1);
+}
+
+#zoom-in-out-card-two:hover #zoom-in {
+  transform: scale(1.1);
+}

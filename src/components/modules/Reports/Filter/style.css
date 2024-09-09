@@ -1,0 +1,14 @@
+.scroll-bar {
+    overflow-x: scroll;
+}
+
+
+.scroll-bar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: transparent;
+}
